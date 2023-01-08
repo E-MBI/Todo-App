@@ -1,0 +1,27 @@
+<div class="container">
+  <form action="#" class="col-10 col-md-7" (submit)="onSubmit($event)">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="title" />
+      <div class="form-text">Add Your New Task</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="day" class="form-label">Day</label>
+      <input type="text" class="form-control" id="day" />
+      <div class="form-text">Add Your New Task</div>
+    </div>
+
+    <div class="mb-3 d-flex flex-column">
+      <label for="content" class="form-label">Content</label>
+      <textarea class="border-2" id="content" cols="30" rows="4"></textarea>
+      <div class="form-text">Write Task Details</div>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+      <label class="form-check-label" for="exampleCheck1">Set Reminder</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

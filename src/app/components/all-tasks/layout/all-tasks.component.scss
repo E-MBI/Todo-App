@@ -1,0 +1,54 @@
+.container {
+  padding: 2rem 0rem;
+  > .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+
+    .task {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      color: #fff;
+      margin: 0px auto;
+      background-color: #2020206e;
+      border: thin solid #646464a3;
+      transition: all 0.3s;
+      .text {
+        h3 {
+          text-transform: capitalize;
+          letter-spacing: 1px;
+          word-spacing: 2px;
+        }
+        p {
+          color: #c7c7c7;
+        }
+      }
+      .controls {
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0.5rem;
+      }
+      .controls:hover {
+        transition: all 0.3s;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+//for task don
+.comp {
+  background: linear-gradient(45deg, #00000026, #13cf3b2e) !important;
+  box-shadow: 0px 0px 5px 2px #00600475 !important;
+}
+.incomp {
+  background: linear-gradient(45deg, #00000026, #cf13132e) !important;
+  box-shadow: 0px 0px 5px 2px #cf13132e !important;
+}

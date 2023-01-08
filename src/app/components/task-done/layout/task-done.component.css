@@ -1,0 +1,44 @@
+.container {
+  padding: 2rem 0rem;
+}
+.container > .row .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  margin: 0px auto;
+  background-color: rgba(32, 32, 32, 0.431372549);
+  border: thin solid rgba(100, 100, 100, 0.6392156863);
+  transition: all 0.3s;
+}
+.container > .row .task .text h3 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.container > .row .task .text p {
+  color: #c7c7c7;
+}
+.container > .row .task .controls {
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+.container > .row .task .controls:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+.comp {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.1490196078), rgba(19, 207, 59, 0.1803921569)) !important;
+  box-shadow: 0px 0px 5px 2px rgba(0, 96, 4, 0.4588235294) !important;
+}
+
+.incomp {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.1490196078), rgba(207, 19, 19, 0.1803921569)) !important;
+  box-shadow: 0px 0px 5px 2px rgba(207, 19, 19, 0.1803921569) !important;
+}/*# sourceMappingURL=task-done.component.css.map */

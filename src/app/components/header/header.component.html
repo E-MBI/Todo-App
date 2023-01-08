@@ -1,0 +1,57 @@
+<!-- todo navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="../../../assets/img/userImg.jpg" alt="user image" />
+
+      <!-- Mahmoud Ibrahim {{from api}} -->
+      Mahmoud Ibrahim
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto ms-2 px-5 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a
+            href="#"
+            class="nav-link fw-bold mx-2"
+            (click)="onSelectPage('allTasks')"
+          >
+            All-Tasks
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="#"
+            class="nav-link fw-bold mx-2"
+            (click)="onSelectPage('newTask')"
+          >
+            New-Task
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="#"
+            class="nav-link fw-bold mx-2"
+            (click)="onSelectPage('completed')"
+          >
+            Completed
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

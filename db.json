@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Navbar",
+      "content": "I will create Navbar",
+      "day": "Sat",
+      "time": "2:30",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "Convert Home UI To Layout",
+      "content": "I will Convert Home UI To Layout",
+      "day": "Sun",
+      "time": "2:30",
+      "status": true
+    }
+  ],
+  "task-done": [
+    {
+      "id": 1,
+      "title": "Convert HoMOnayout",
+      "content": "I will Convert HoMOnayou HoMOnayou Home UI To Layout",
+      "day": "Mon",
+      "time": "2:30",
+      "status": true
+    }
+  ]
+}

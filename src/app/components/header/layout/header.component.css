@@ -1,0 +1,18 @@
+.navbar {
+  padding: 0.6rem;
+  margin: 0;
+}
+.navbar .navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0px 0px 2px 2px #bf7200;
+}
+.navbar .container-fluid > a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.navbar .container-fluid > a > img {
+  width: 40px;
+  margin-right: 0.5rem;
+}/*# sourceMappingURL=header.component.css.map */

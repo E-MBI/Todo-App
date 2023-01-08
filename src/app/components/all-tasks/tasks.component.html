@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row col">
+    <!-- tasks -->
+    <div class="task col-10 col-md-6">
+      <div class="text mx">
+        <h3>All</h3>
+        <p>Task body Lorem ipsum dolor sit amen.</p>
+        <span class="time text-secondary">Day: Sun 12:30 Am</span>
+      </div>
+
+      <div class="controls">
+        <fa-icon
+          class="text-danger"
+          [icon]="fatrash"
+          *ngIf="task.status"
+        ></fa-icon>
+
+        <fa-icon
+          class="text-success"
+          [icon]="facheck"
+          *ngIf="!task.status"
+        ></fa-icon>
+      </div>
+    </div>
+
+    <!-- ! button add New task -->
+    <div class="col-10 col-md-6">
+      <button
+        type="button"
+        class="fw-bold btn btn-success"
+        (click)="onAddTask('newTask')"
+      >
+        Add-Task
+      </button>
+    </div>
+  </div>
+</div>

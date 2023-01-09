@@ -23,31 +23,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto ms-2 px-5 mb-2 mb-lg-0">
         <li class="nav-item">
-          <a
-            href="#"
-            class="nav-link fw-bold mx-2"
-            (click)="onSelectPage('allTasks')"
-          >
-            All-Tasks
-          </a>
+          <a routerLink="/" class="nav-link fw-bold mx-2"> All-Tasks </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="#"
-            class="nav-link fw-bold mx-2"
-            (click)="onSelectPage('newTask')"
-          >
-            New-Task
-          </a>
+          <a routerLink="new-task" class="nav-link fw-bold mx-2"> New-Task </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="#"
-            class="nav-link fw-bold mx-2"
-            (click)="onSelectPage('completed')"
-          >
+          <a routerLink="completed" class="nav-link fw-bold mx-2">
             Completed
           </a>
         </li>

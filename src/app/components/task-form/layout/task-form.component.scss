@@ -42,14 +42,17 @@ form {
       box-shadow: 0 0 0 0.25rem rgb(179 144 92);
     }
   }
-  button.btn {
+  button.btn,
+  button.btn > a {
     background-color: #bf7200;
     outline: none;
     background-color: #bf7200;
     border-color: #bf7200;
   }
   button.btn:focus-visible,
-  button.btn:hover {
+  button.btn:hover,
+  button.btn > a:hover {
+    color: #fff !important;
     color: var(--bs-btn-hover-color);
     background-color: #bf7200;
     border-color: #bf7200;

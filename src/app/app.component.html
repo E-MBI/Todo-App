@@ -1,13 +1,7 @@
 <app-header (selectPage)="onSelectPage($event)"></app-header>
 
-<!--  all tasks Comp -->
-<app-all-tasks
-  *ngIf="page === 'allTasks'"
-  (addNewTask)="onAddTask($event)"
-></app-all-tasks>
-
-<!-- form Comp -->
-<app-task-form *ngIf="page === 'newTask'"></app-task-form>
+<!-- appRoutes -->
+<router-outlet></router-outlet>
 
 <!--  completed tasks Comp -->
 <app-task-done *ngIf="page === 'completed'"></app-task-done>
